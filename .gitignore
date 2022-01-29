@@ -1,0 +1,5 @@
+.vscode
+/vendor/
+.gitgnore
+/test/coverage
+composer.lock

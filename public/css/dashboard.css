@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.containner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0 15px;
+}
+
+.button {
+    text-decoration: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    border: 0;
+}
+
+.actions .update {
+    margin-right: 5px;
+}
+
+.containner {
+    font-size: 20px;
+}
+
+#form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.containner-input {
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    width: 550px;
+}
+
+.containner-input input[type="text"] {
+    margin: 0 5px;
+    border: 2px solid black;
+}
+
+.containner-input input[type="text"]:focus {
+    margin: 0 5px;
+    border: 2px solid black;
+}
+
+#feedback {
+    font-size: 15px;
+    font-weight: 300;
+    height: 25px;
+}
+
+#links {
+    display: flex;
+    flex-direction: column;
+}
+
+#links a {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.containner-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,28 @@
+{
+    "name": "henriquebs0/link-pack",
+    "description": "Web system to save links",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "HenriqueBS0\\LinkPack\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "HenriqueBS0",
+            "email": "henrique.10agr@gmail.com"
+        }
+    ],
+    "require": {
+        "henriquebs0/router": "dev-main"
+    },
+    "scripts": {
+        "run-project": [
+            "php -S localhost:8080"
+        ]
+    }
+}
